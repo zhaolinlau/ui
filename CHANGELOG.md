@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v3.3.0...master)
+## [Unreleased](https://github.com/laravel/ui/compare/v3.3.1...master)
+
+
+## [v3.3.1 (2021-11-02)](https://github.com/laravel/ui/compare/v3.3.0...v3.3.1)
+
+### Fixed
+- Set `password_confirmed_at` on login ([#208](https://github.com/laravel/ui/pull/208))
 
 
 ## [v3.3.0 (2021-05-25)](https://github.com/laravel/ui/compare/v3.2.1...v3.3.0)
