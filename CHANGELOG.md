@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v3.4.5...3.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v3.4.6...3.x)
+
+## [v3.4.6](https://github.com/laravel/ui/compare/v3.4.5...v3.4.6) - 2022-05-20
+
+### Fixes
+
+- Fixes AuthenticatesUsers always force remember me by @crynobone in https://github.com/laravel/ui/pull/227
 
 ## [v3.4.5](https://github.com/laravel/ui/compare/v3.4.4...v3.4.5) - 2022-02-22
 
