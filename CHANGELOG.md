@@ -1,6 +1,20 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v3.4.6...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.0.0...4.x)
+
+## [v4.0.0](https://github.com/laravel/ui/compare/v3.4.6...v4.0.0) - 2022-07-25
+
+### Added
+
+- Vite by @jessarcher in https://github.com/laravel/ui/pull/228 and in https://github.com/laravel/ui/pull/231
+
+### Changed
+
+- Improves console output by @nunomaduro in https://github.com/laravel/ui/pull/233
+
+### Removed
+
+- Drop support for Laravel 8 and PHP 7.3 & 7.4 by @driesvints in https://github.com/laravel/ui/pull/232
 
 ## [v3.4.6](https://github.com/laravel/ui/compare/v3.4.5...v3.4.6) - 2022-05-20
 
