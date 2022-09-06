@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.0.0...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.0.1...4.x)
+
+## [v4.0.1](https://github.com/laravel/ui/compare/v4.0.0...v4.0.1) - 2022-09-07
+
+### Changed
+
+- Update deprecated globing mechanism by @timacdonald in https://github.com/laravel/ui/pull/236
 
 ## [v4.0.0](https://github.com/laravel/ui/compare/v3.4.6...v4.0.0) - 2022-07-25
 
