@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.0.2...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.1.0...4.x)
+
+## [v4.1.0](https://github.com/laravel/ui/compare/v4.0.2...v4.1.0) - 2022-11-15
+
+### Added
+
+- Reactjs18 by @gqrlab in https://github.com/laravel/ui/pull/242
 
 ## [v4.0.2](https://github.com/laravel/ui/compare/v4.0.1...v4.0.2) - 2022-09-09
 
