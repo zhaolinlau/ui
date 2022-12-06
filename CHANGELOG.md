@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.1.0...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.1.1...4.x)
+
+## [v4.1.1](https://github.com/laravel/ui/compare/v4.1.0...v4.1.1) - 2022-12-05
+
+### Changed
+
+- Bump Bootstrap dependencies by @PerryvanderMeer in https://github.com/laravel/ui/pull/243
 
 ## [v4.1.0](https://github.com/laravel/ui/compare/v4.0.2...v4.1.0) - 2022-11-15
 
