@@ -1,6 +1,16 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.1.1...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.2.0...4.x)
+
+## [v4.2.0](https://github.com/laravel/ui/compare/v4.1.1...v4.2.0) - 2023-01-10
+
+### Added
+
+- Add Laravel 10 support by @jnoordsij in https://github.com/laravel/ui/pull/246
+
+### Fixed
+
+- Update @vitejs/plugin-vue version by @asherawelan in https://github.com/laravel/ui/pull/245
 
 ## [v4.1.1](https://github.com/laravel/ui/compare/v4.1.0...v4.1.1) - 2022-12-05
 
