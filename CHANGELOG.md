@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.2.1...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.2.2...4.x)
+
+## [v4.2.2](https://github.com/laravel/ui/compare/v4.2.1...v4.2.2) - 2023-05-09
+
+- Update app.stub to preload the right font source by @tommica in https://github.com/laravel/ui/pull/248
 
 ## [v4.2.1](https://github.com/laravel/ui/compare/v4.2.0...v4.2.1) - 2023-02-17
 
