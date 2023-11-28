@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.2.2...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.2.3...4.x)
+
+## [v4.2.3](https://github.com/laravel/ui/compare/v4.2.2...v4.2.3) - 2023-11-23
+
+* [4.x] Support pusher-js v8.0 by [@antimech](https://github.com/antimech) in https://github.com/laravel/ui/pull/256
 
 ## [v4.2.2](https://github.com/laravel/ui/compare/v4.2.1...v4.2.2) - 2023-05-09
 
