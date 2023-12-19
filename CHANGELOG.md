@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.2.3...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.3.0...4.x)
+
+## [v4.3.0](https://github.com/laravel/ui/compare/v4.2.3...v4.3.0) - 2023-12-19
+
+* [4.x] Vite 5 by [@timacdonald](https://github.com/timacdonald) in https://github.com/laravel/ui/pull/258
 
 ## [v4.2.3](https://github.com/laravel/ui/compare/v4.2.2...v4.2.3) - 2023-11-23
 
