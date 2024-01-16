@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.3.0...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.4.0...4.x)
+
+## [v4.4.0](https://github.com/laravel/ui/compare/v4.3.0...v4.4.0) - 2024-01-12
+
+* [4.x] Merges develop by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/ui/pull/259
 
 ## [v4.3.0](https://github.com/laravel/ui/compare/v4.2.3...v4.3.0) - 2023-12-19
 
