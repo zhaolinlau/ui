@@ -3,36 +3,30 @@
 namespace Laravel\Ui\Tests\AuthBackend;
 
 use Illuminate\Auth\Events\Attempting;
+use Illuminate\Auth\Events\Logout;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Pipeline;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Testing\TestResponse;
 use Illuminate\Validation\ValidationException;
+use Orchestra\Testbench\Attributes\WithMigration;
 use Orchestra\Testbench\Factories\UserFactory;
 use Orchestra\Testbench\TestCase;
 use PHPUnit\Framework\Attributes\Test;
 
+#[WithMigration]
 class AuthenticatesUsersTest extends TestCase
 {
-    use AuthenticatesUsers;
+    use AuthenticatesUsers, RefreshDatabase;
 
     protected function tearDown(): void
     {
         Auth::logout();
 
         parent::tearDown();
-    }
-
-    /**
-     * Define database migrations.
-     *
-     * @return void
-     */
-    protected function defineDatabaseMigrations()
-    {
-        $this->loadLaravelMigrations();
     }
 
     #[Test]
@@ -56,6 +50,26 @@ class AuthenticatesUsersTest extends TestCase
         Event::assertDispatched(function (Attempting $event) {
             return $event->remember === false;
         });
+    }
+
+    #[Test]
+    public function it_can_deauthenticate_a_user()
+    {
+        Event::fake();
+
+        $user = UserFactory::new()->create();
+
+        $this->actingAs($user);
+
+        $request = Request::create('/logout', 'POST', [], [], [], [
+            'HTTP_ACCEPT' => 'application/json',
+        ]);
+
+        $response = $this->handleRequestUsing(
+            $request, fn ($request) => $this->logout($request)
+        )->assertStatus(204);
+
+        Event::assertDispatched(fn (Logout $event) => $user->is($event->user));
     }
 
     #[Test]
