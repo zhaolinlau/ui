@@ -1,8 +1,8 @@
 # Laravel UI
 
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://img.shields.io/packagist/dt/laravel/ui" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://img.shields.io/packagist/v/laravel/ui" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/ui"><img src="https://img.shields.io/packagist/l/laravel/ui" alt="License"></a>
+<a href="https://packagist.org/packages/zhaolinlau/ui"><img src="https://img.shields.io/packagist/dt/zhaolinlau/ui" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/zhaolinlau/ui"><img src="https://img.shields.io/packagist/v/zhaolinlau/ui" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/zhaolinlau/ui"><img src="https://img.shields.io/packagist/l/zhaolinlau/ui" alt="License"></a>
 
 ## Introduction
 
@@ -25,13 +25,13 @@ Only the latest major version of Laravel UI receives bug fixes. The table below 
 
 ### Installation
 
-The Bootstrap and Vue scaffolding provided by Laravel is located in the `laravel/ui` Composer package, which may be installed using Composer:
+The Bootstrap and Vue scaffolding provided by Laravel is located in the `zhaolinlau/ui` Composer package, which may be installed using Composer:
 
 ```bash
-composer require laravel/ui
+composer require zhaolinlau/ui
 ```
 
-Once the `laravel/ui` package has been installed, you may install the frontend scaffolding using the `ui` Artisan command:
+Once the `zhaolinlau/ui` package has been installed, you may install the frontend scaffolding using the `ui` Artisan command:
 
 ```bash
 // Generate basic scaffolding...
@@ -55,7 +55,7 @@ Laravel does not require you to use a specific JavaScript framework or library t
 
 ### Writing CSS
 
-After installing the `laravel/ui` Composer package and [generating the frontend scaffolding](#introduction), Laravel's `package.json` file will include the `bootstrap` package to help you get started prototyping your application's frontend using Bootstrap. However, feel free to add or remove packages from the `package.json` file as needed for your own application. You are not required to use the Bootstrap framework to build your Laravel application - it is provided as a good starting point for those who choose to use it.
+After installing the `zhaolinlau/ui` Composer package and [generating the frontend scaffolding](#introduction), Laravel's `package.json` file will include the `bootstrap` package to help you get started prototyping your application's frontend using Bootstrap. However, feel free to add or remove packages from the `package.json` file as needed for your own application. You are not required to use the Bootstrap framework to build your Laravel application - it is provided as a good starting point for those who choose to use it.
 
 Before compiling your CSS, install your project's frontend dependencies using the [Node package manager (NPM)](https://www.npmjs.org):
 
@@ -93,7 +93,7 @@ By default, the Laravel `vite.config.js` file compiles your SASS and the `resour
 
 #### Writing Vue Components
 
-When using the `laravel/ui` package to scaffold your frontend, an `ExampleComponent.vue` Vue component will be placed in the `resources/js/components` directory. The `ExampleComponent.vue` file is an example of a [single file Vue component](https://vuejs.org/guide/single-file-components) which defines its JavaScript and HTML template in the same file. Single file components provide a very convenient approach to building JavaScript driven applications. The example component is registered in your `app.js` file:
+When using the `zhaolinlau/ui` package to scaffold your frontend, an `ExampleComponent.vue` Vue component will be placed in the `resources/js/components` directory. The `ExampleComponent.vue` file is an example of a [single file Vue component](https://vuejs.org/guide/single-file-components) which defines its JavaScript and HTML template in the same file. Single file components provide a very convenient approach to building JavaScript driven applications. The example component is registered in your `app.js` file:
 
 ```javascript
 import ExampleComponent from './components/ExampleComponent.vue';
@@ -119,7 +119,7 @@ If you are interested in learning more about writing Vue components, you should 
 If you prefer to use React to build your JavaScript application, Laravel makes it a cinch to swap the Vue scaffolding with React scaffolding:
 
 ```bash
-composer require laravel/ui
+composer require zhaolinlau/ui
 
 // Generate basic scaffolding...
 php artisan ui react
@@ -155,7 +155,7 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 ## Security Vulnerabilities
 
-Please review [our security policy](https://github.com/laravel/ui/security/policy) on how to report security vulnerabilities.
+Please review [our security policy](https://github.com/zhaolinlau/ui/security/policy) on how to report security vulnerabilities.
 
 ## License
 
