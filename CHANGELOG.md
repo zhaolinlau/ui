@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.4.0...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.5.0...4.x)
+
+## [v4.5.0](https://github.com/laravel/ui/compare/v4.4.0...v4.5.0) - 2024-03-04
+
+* Fix supported Versions by [@Seb33300](https://github.com/Seb33300) in https://github.com/laravel/ui/pull/261
+* PHPUnit v11 support by [@driesvints](https://github.com/driesvints) in https://github.com/laravel/ui/pull/262
+* Test Improvements by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/ui/pull/263
 
 ## [v4.4.0](https://github.com/laravel/ui/compare/v4.3.0...v4.4.0) - 2024-01-12
 
