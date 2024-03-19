@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center py-4">
         <div class="col-md-6">
-            <div class="card bg-white px-2 border-0 shadow-sm">
+            <div class="card px-2 border-0 shadow-sm">
 
                 <div class="card-body">
                     <h5 class="card-title">{{ __('Verify Your Email Address') }}</h5>

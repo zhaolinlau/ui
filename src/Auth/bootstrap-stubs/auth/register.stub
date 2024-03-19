@@ -15,7 +15,7 @@
 					</a>
 				</div>
 
-				<div class="card bg-white px-2 shadow-sm border-0">
+				<div class="card px-2 shadow-sm border-0">
 
 					<div class="card-body">
 						<form method="POST" action="{{ route('register') }}">
