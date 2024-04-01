@@ -1,6 +1,11 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.5.0...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.5.1...4.x)
+
+## [v4.5.1](https://github.com/laravel/ui/compare/v4.5.0...v4.5.1) - 2024-03-21
+
+* [4.x] Make commands lazy by [@timacdonald](https://github.com/timacdonald) in https://github.com/laravel/ui/pull/264
+* [4.x] Fixes defaults on confirm by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/ui/pull/265
 
 ## [v4.5.0](https://github.com/laravel/ui/compare/v4.4.0...v4.5.0) - 2024-03-04
 
