@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.5.1...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.5.2...4.x)
+
+## [v4.5.2](https://github.com/laravel/ui/compare/v4.5.1...v4.5.2) - 2024-05-08
+
+* [4.x] Ensure logout requires authentication by [@timacdonald](https://github.com/timacdonald) in https://github.com/laravel/ui/pull/269
 
 ## [v4.5.1](https://github.com/laravel/ui/compare/v4.5.0...v4.5.1) - 2024-03-21
 
