@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.5.2...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.6.0...4.x)
+
+## [v4.6.0](https://github.com/laravel/ui/compare/v4.5.2...v4.6.0) - 2024-11-21
+
+* Update README.md by [@pau1phi11ips](https://github.com/pau1phi11ips) in https://github.com/laravel/ui/pull/271
+* Replace dead link in Security Policy by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/ui/pull/274
+* [4.x] Supports PHP 8.4 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/ui/pull/276
 
 ## [v4.5.2](https://github.com/laravel/ui/compare/v4.5.1...v4.5.2) - 2024-05-08
 
