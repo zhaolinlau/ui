@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/ui/compare/v4.6.0...4.x)
+## [Unreleased](https://github.com/laravel/ui/compare/v4.6.1...4.x)
+
+## [v4.6.1](https://github.com/laravel/ui/compare/v4.6.0...v4.6.1) - 2025-01-28
+
+* Supports Laravel 12 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/ui/pull/277
 
 ## [v4.6.0](https://github.com/laravel/ui/compare/v4.5.2...v4.6.0) - 2024-11-21
 
