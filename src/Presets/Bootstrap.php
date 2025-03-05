@@ -31,7 +31,7 @@ class Bootstrap extends Preset
         return [
             'bootstrap' => '^5.3.3',
             '@popperjs/core' => '^2.11.8',
-            'sass' => '^1.80.6',
+            'sass' => '^1.85.1',
         ] + $packages;
     }
 
