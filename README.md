@@ -18,7 +18,7 @@ Only the latest major version of Laravel UI receives bug fixes. The table below 
 
 | Version | Laravel Version |
 |---- |----|
-| [4.x](https://github.com/laravel/ui/tree/4.x) | 9.x, 10.x, 11.x |
+| [4.x](https://github.com/laravel/ui/tree/4.x) | 9.x, 10.x, 11.x, 12.x |
 
 ### Installation
 
